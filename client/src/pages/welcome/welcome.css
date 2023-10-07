@@ -1,0 +1,40 @@
+
+.load{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(135deg, #ffffff,#2f40d5);
+
+}
+.loading{
+  position: absolute;
+  bottom: 50%;
+  left: 43%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  background-color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+ border-radius: 10px;
+}
+.text{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.text::before {
+  content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+height: 3px;
+width: 30px;
+border-radius: 5px;
+background: linear-gradient(135deg, #ffffff,#2f40d5);
+}

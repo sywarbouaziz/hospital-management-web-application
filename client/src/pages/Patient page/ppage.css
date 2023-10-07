@@ -1,0 +1,51 @@
+.dpageappp td {
+    
+    padding: 10px 80px;
+    font-size: 14px;
+}
+.dpageappp2 td{
+    padding: 10px 150px;
+    font-size: 14px;
+}
+.dpageappp,.dpageappp2 {
+    width: 97%;
+    overflow: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px black;
+    margin-bottom: 10px;
+    
+}
+.dpageappp td button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: #2f40d5;
+    color: #e6e7e8;
+}
+
+.dpageappp2 td button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: #e8c900;
+    color: #e6e7e8;
+}
+
+
+
+.dpageappp thead th {
+    position: sticky;
+    top: 0;
+    background-color: #2f40d5;
+    color: #e6e7e8;
+    font-size: 15px;
+}
+.dpageappp2 thead th {
+    position: sticky;
+    top: 0;
+    background-color: #e8c900;
+    color: #e6e7e8;
+    font-size: 15px;
+}

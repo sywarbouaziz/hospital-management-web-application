@@ -1,0 +1,121 @@
+.counter img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2f40d5 ;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.widgetdoctor {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+}
+.widgetdoctor .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.widgetdoctor .left .title {
+    font-size: 25px;
+ 
+  
+}
+
+.widgetdoctor .left .counter {
+    font-size: 28px;
+    font-weight: 300px;
+}
+.dpageapp,.dpageapp2 {
+    width: 97%;
+    overflow: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px black;
+    margin-bottom: 10px;
+    
+}
+.dpageapp td button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: #2f40d5;
+    color: #e6e7e8;
+}
+
+.dpageapp2 td button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: #e8c900;
+    color: #e6e7e8;
+}
+
+
+.dpageapp2 td {
+    
+    padding: 10px 50px;
+    font-size: 14px;
+}
+.dpageapp td {
+    
+    padding: 10px 100px;
+    font-size: 14px;
+}
+.dpageapp thead th {
+    position: sticky;
+    top: 0;
+    background-color: #2f40d5;
+    color: #e6e7e8;
+    font-size: 15px;
+}
+.dpageapp2 thead th {
+    position: sticky;
+    top: 0;
+    background-color: #e8c900;
+    color: #e6e7e8;
+    font-size: 15px;
+}
+.home .homeContainer .widgetsdoctor{
+    display: flex;
+    padding: 20px;
+    gap: 135px;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(105deg, #ffffff,#2f40d5);
+  }
+  .logoutbutton:hover{
+   background: linear-gradient(-105deg, #ffffff,#2f40d5);
+   }
+.logoutbutton{
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin-left: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(105deg, #ffffff,#2f40d5);
+   
+}

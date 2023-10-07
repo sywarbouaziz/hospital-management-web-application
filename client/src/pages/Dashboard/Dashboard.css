@@ -1,0 +1,77 @@
+.home {
+    display: flex;
+    width: 100%;
+}
+.home .homeContainer {
+    flex: 6;
+}
+.home .homeContainer .widgets{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.widget {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    background: linear-gradient(135deg, #ffffff,#2f40d5);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+}
+.widget .left, .widget .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.widget .left .title, .widget .right .title {
+    font-size: 25px;
+ 
+  
+}
+
+.widget .left .counter, .widget .right .counter {
+    font-size: 28px;
+    font-weight: 300px;
+}
+.widget .left .link, .widget .right .link {
+    width: max-content;
+    font-size: 12px;
+    border-bottom: 1px solid #2f40d5;
+}
+
+
+.widget .left .icon, .widget .right .icon {
+    font-size:80px;
+    padding: 5px;
+    margin-top: 100px;
+    border-radius: 5px;
+    
+}
+
+.appointmenttable {
+    max-height: 100vh;
+    width: 97%;
+    overflow: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+.appointmenttable thead th {
+    position: sticky;
+    top: 0;
+    background-color: #2f40d5;
+    color: #e6e7e8;
+    font-size: 15px;
+}
+.appointmenttable td button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: #2f40d5;
+    color: #e6e7e8;
+}

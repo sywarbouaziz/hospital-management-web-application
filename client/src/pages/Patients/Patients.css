@@ -1,0 +1,114 @@
+
+
+
+
+.bodo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header_fixed {
+    max-height: 100vh;
+    width: 100%;
+    overflow: auto;
+    
+}
+
+.header_fixed thead th {
+    position: sticky;
+    top: 0;
+    background-color: #2f40d5;
+    color: #e6e7e8;
+    font-size: 15px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+td img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 5px solid #e6e7e8;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #edeef1;
+}
+
+tr:hover td {
+    color: #71b7e6;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.header_fixed td button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: #2f40d5;
+    color: #e6e7e8;
+}
+.addnew{
+    background-color: transparent;
+    max-height: 100vh;
+    width: 100%;
+    overflow: auto;
+    display: table;
+   
+   
+}
+.addnew .lll {
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+   margin-left: 850px;
+  
+
+}
+.addnew .lll button{
+    padding: 7px 20px;
+    border-radius: 5px;
+ 
+    background: linear-gradient(105deg, #ffffff,#2f40d5);
+}
+.addnew .lll button:hover{
+    background: linear-gradient(-105deg, #ffffff,#2f40d5);
+}
+.addnew .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    float: left;
+  }
+  .addnew .title::before{
+    content: "";
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #ffffff,#2f40d5);
+  }

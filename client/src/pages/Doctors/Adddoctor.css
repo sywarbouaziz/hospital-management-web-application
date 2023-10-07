@@ -1,0 +1,116 @@
+.pat{
+    display:flex;
+    width: 100%;
+}
+.new{
+    max-width: 1150px;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    margin-left: 90px;
+    margin-top: 55px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 10px;
+  
+
+}
+.new .newContainer {
+    flex: 6;
+   
+}
+.new .newContainer .bottom {
+
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+}
+.new .newContainer .top{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.new .newContainer .top::before {
+    content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #ffffff,#2f40d5);
+}
+ .new .newContainer .bottom h1 {
+    color: lightgray;
+    font-size: 20px;
+}
+.new .newContainer .bottom .left {
+    flex: 1;
+    text-align: center;
+    
+}
+.new .newContainer .bottom .left img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #2f40d5;
+}
+.new .newContainer .bottom .right {
+    flex: 2;
+   
+    
+}
+.new .newContainer .bottom .right form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+.new .newContainer .bottom .right form .formInput {
+    width: 40%;
+}
+.new .newContainer .bottom .right form .formInput label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.new .newContainer .bottom .right form .formInput label .icon {
+    cursor: pointer;
+}
+.new .newContainer .bottom .right form .formInput input,textarea,p {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.new .newContainer .bottom .right form .formInput input:focus,.new .newContainer .bottom .right form .formInput select:focus,.new .newContainer .bottom .right form .formInput input:valid,textarea:focus,textarea:valid,p{
+    border-color: #2f40d5;
+}
+
+ .new .newContainer .bottom .right form button,.load .loading button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(105deg, #ffffff,#2f40d5);
+}
+.new .newContainer .bottom .right form button:hover {
+    background: linear-gradient(-105deg, #ffffff,#2f40d5);
+}
